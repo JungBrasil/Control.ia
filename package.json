@@ -1,5 +1,5 @@
 {
-  "name": "trae-project",
+  "name": "control.ia",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,7 +11,7 @@
     "check": "tsc --noEmit",
     "server:dev": "nodemon",
     "dev": "concurrently \"npm run client:dev\" \"npm run server:dev\"",
-    "start": "node server.js",
+    "start": "node server-render-final.js",
     "start:ts": "tsx server.ts",
     "railway": "npm run build && npm start"
   },

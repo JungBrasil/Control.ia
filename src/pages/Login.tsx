@@ -39,7 +39,7 @@ export default function Login() {
         onSubmit={handleSubmit}
         className="w-full max-w-md bg-white shadow p-6 rounded space-y-4"
       >
-        <h1 className="text-xl font-semibold text-gray-800">Acesso ao SCM</h1>
+        <h1 className="text-xl font-semibold text-gray-800">Acesso ao Control.ia</h1>
         {!SUPABASE_CONFIGURED && (
           <div className="text-sm text-blue-700 bg-blue-50 border border-blue-200 p-3 rounded">
             Autenticação desativada. Configure o Supabase para habilitar login.

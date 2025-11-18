@@ -13,7 +13,7 @@ app.get('*', (req, res) => {
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Sistema de Controladoria Municipal</title>
+      <title>Control.ia - Sistema de Controladoria Municipal</title>
       <style>
         body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background: #f5f5f5; }
         .container { max-width: 800px; margin: 0 auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
@@ -27,11 +27,11 @@ app.get('*', (req, res) => {
     </head>
     <body>
       <div class="container">
-        <h1>🚀 Sistema de Controladoria Municipal (SCM) com IA</h1>
+        <h1>🚀 Control.ia - Sistema de Controladoria Municipal com IA</h1>
         
         <div class="warning">
           <strong>⚠️ Sistema Pronto para Deploy!</strong><br>
-          O código completo do SCM foi desenvolvido com sucesso, mas requer configuração de ambiente para deploy em produção.
+          O código completo do Control.ia foi desenvolvido com sucesso, mas requer configuração de ambiente para deploy em produção.
         </div>
 
         <h2>✅ Funcionalidades Implementadas:</h2>

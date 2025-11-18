@@ -1,16 +1,14 @@
 {
-  "build": {
-    "buildCommand": "npm run build",
-    "startCommand": "npm start",
-    "env": {
-      "NODE_ENV": "production",
-      "PORT": "8080"
-    }
+  "buildCommand": "npm run build",
+  "startCommand": "node server-render.js",
+  "env": {
+    "NODE_ENV": "production",
+    "NODE_VERSION": "18"
   },
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "/api/index.js"
+      "dest": "/api/$1"
     },
     {
       "src": "/(.*)",

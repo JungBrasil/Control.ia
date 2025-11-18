@@ -1,5 +1,5 @@
 # 🚀 GUIA RENDER - DEPLOYMENT PASSO A PASSO
-# Sistema de Controladoria Municipal com IA
+# Control.ia - Sistema de Controladoria Municipal com IA
 
 ## 📱 PASSO 1: ACESSAR RENDER
 1. Abra seu navegador

@@ -7,7 +7,7 @@ export default function Layout() {
       <header className="h-14 header flex items-center justify-between px-4">
         <div className="flex items-center gap-2">
           <LayoutGrid className="w-5 h-5" />
-          <Link to="/dashboard" className="font-semibold">SCM</Link>
+          <Link to="/dashboard" className="font-semibold">Control.ia</Link>
         </div>
         <div className="flex items-center gap-3">
           <div className="relative">
