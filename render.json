@@ -1,0 +1,20 @@
+{
+  "build": {
+    "buildCommand": "npm run build",
+    "startCommand": "npm start",
+    "env": {
+      "NODE_ENV": "production",
+      "PORT": "8080"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/index.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
